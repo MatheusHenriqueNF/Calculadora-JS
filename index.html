@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button onclick="visorLimpar()">C</button>
+            <button onclick="visorValor('/')">/</button>
+            <button onclick="visorValor('*')">*</button>
+            <button onclick="visorValor('-')">-</button>
+            <button onclick="visorValor('7')">7</button>
+            <button onclick="visorValor('8')">8</button>
+            <button onclick="visorValor('9')">9</button>
+            <button onclick="visorValor('+')">+</button>
+            <button onclick="visorValor('4')">4</button>
+            <button onclick="visorValor('5')">5</button>
+            <button onclick="visorValor('6')">6</button>
+            <button onclick="visorValor('%')">%</button>
+            <button onclick="visorValor('1')">1</button>
+            <button onclick="visorValor('2')">2</button>
+            <button onclick="visorValor('3')">3</button>
+            <button onclick="visorValor('.')">.</button>
+            <button onclick="visorValor('0')" style="grid-column: span 2;">0</button>
+            <button onclick="calcular()" class="equal">=</button>
+        </div>
+    </div>
+
+    <script src="js/calculo.js"></script>
+</body>
+</html>
